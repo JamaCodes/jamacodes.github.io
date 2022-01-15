@@ -7,7 +7,7 @@ class ContactThree extends Component{
             rnName: '',
             rnEmail: '',
             rnSubject: '',
-            rnMessage: '',
+            rnBody: '',
         };
     }
     render(){
@@ -22,30 +22,10 @@ class ContactThree extends Component{
                                     <a href="mailto:jama.avwork@gmail.com"> jama.avwork@gmail.com</a> </p>
                             </div>
                             <div className="form-wrapper">
-                                <form>
-                                    <label htmlFor="item01">
-                                        <input
-                                            type="text"
-                                            name="name"
-                                            id="item01"
-                                            value={this.state.rnName}
-                                            onChange={(e)=>{this.setState({rnName: e.target.value});}}
-                                            placeholder="Your Name *"
-                                        />
-                                    </label>
+                                <form action="mailto:Jama%20Mohamed<jama.avwork@gmail.com>" method="GET">
+                              
 
                                     <label htmlFor="item02">
-                                        <input
-                                            type="text"
-                                            name="email"
-                                            id="item02"
-                                            value={this.state.rnEmail}
-                                            onChange={(e)=>{this.setState({rnEmail: e.target.value});}}
-                                            placeholder="Your email *"
-                                        />
-                                    </label>
-
-                                    <label htmlFor="item03">
                                         <input
                                             type="text"
                                             name="subject"
@@ -55,14 +35,14 @@ class ContactThree extends Component{
                                             placeholder="Write a Subject"
                                         />
                                     </label>
-                                    <label htmlFor="item04">
+                                    <label htmlFor="item03">
                                         <textarea
                                             type="text"
                                             id="item04"
-                                            name="message"
-                                            value={this.state.rnMessage}
-                                            onChange={(e)=>{this.setState({rnMessage: e.target.value});}}
-                                            placeholder="Your Message"
+                                            name="Body"
+                                            value={this.state.rnBody}
+                                            onChange={(e)=>{this.setState({rnBody: e.target.value});}}
+                                            placeholder="Your Mesage"
                                         />
                                     </label>
                                     <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit</button>

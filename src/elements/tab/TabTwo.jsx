@@ -49,10 +49,10 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Metro Nashville Arts Commission <span>- Thrive Micro-Funding</span></a>
+                                                   <a href="/service">Metro Nashville Arts Commission <span>| Thrive Micro-Funding 2016</span></a>
                                                </li>
                                                <li>
-                                                   <a href="/service">Creatives' Day <span>- Creative on the Rise</span></a> 2017 
+                                                   <a href="https://youtu.be/raluKofCkkA" target='_blank'>Creatives' Day <span>| Creative on the Rise 2017 </span></a> 
                                                </li>
                                              
                                            </ul>
@@ -66,13 +66,13 @@ class TabsTwo extends Component{
                                            <ul>
                                                <li>
                                                    <a href="/service"> Nashville Software School <span> - Software Developer  
- </span></a> Aug 2021 - Jan 2022
+ </span></a>  2021 - 2022
                                                </li>
                                                <li>
-                                                   <a href="/service">Tennessee Disability Coalition <span> - Youth Program Coordinator</span></a> 2017 - 2018
+                                                   <a href="/service">Tennessee Disability Coalition <span> - Youth Program Coordinator</span></a> 2018 - 2021
                                                </li>
                                                <li>
-                                                   <a href="/service">FAST VIDEO PRODUCTION, LLC <span> - Owner </span></a> July 2016  - June  2018
+                                                   <a href="/service">FAST VIDEO PRODUCTION, LLC <span> - Owner </span></a>  2012  -   Present
                                                </li>
                                            </ul>
                                        </div>

@@ -8,10 +8,10 @@ import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+   
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/jama-mohamed-2378308b/'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/yung__tv'},
+   
 ]
 
 class PortfolioDetails1 extends Component{
@@ -38,7 +38,7 @@ class PortfolioDetails1 extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title text-white">Jama Mohamed Portfolio</h2>
+                                    <h2 className="title text-white">Jama Mohamed's Portfolio</h2>
                                     <p>The Last 6 Months</p>
                                 </div>
                             </div>
@@ -60,18 +60,18 @@ class PortfolioDetails1 extends Component{
 
                                         <div className="portfolio-view-list d-flex flex-wrap">
                                             <div className="port-view">
-                                                <span>Branch</span>
-                                                <h4>Ability</h4>
+                                                <span>Software Developer</span>
+                                                <h4>Full Stack</h4>
                                             </div>
 
                                             <div className="port-view">
                                                 <span>Project Types</span>
-                                                <h4>Website</h4>
+                                                <h4>Single Page Applications and Web Api's</h4>
                                             </div>
 
                                             <div className="port-view">
                                                 <span>Program</span>
-                                                <h4>View Project</h4>
+                                                <h4><a href="https://nashvillesoftwareschool.com/programs/20220214cohort55/#syllabus" target="_blank">View</a></h4>
                                             </div>
                                         </div>
 
@@ -84,11 +84,11 @@ class PortfolioDetails1 extends Component{
                                         </div>
                                     </div>
                                     <div className="portfolio-thumb-inner">
-                                        <div className="thumb position-relative mb--30">
+                                        {/* <div className="thumb position-relative mb--30">
                                             <img src="/assets/images/portfolio/portfolio-big-03.jpg" alt="Portfolio Images"/>
                                             <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
                                             <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
-                                        </div>
+                                        </div> */}
                                         
                                         <div className="thumb mb--30">
                                             <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
@@ -112,7 +112,7 @@ class PortfolioDetails1 extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title text-center">
                                     <span className="theme-color font--18 fontWeight600">Related Work</span>
-                                    <h2>Our More Projects</h2>
+                                    <h2>A Time Before Web Development</h2>
                                 </div>
                             </div>
                         </div>
@@ -126,8 +126,8 @@ class PortfolioDetails1 extends Component{
                                         </a>
                                     </div>
                                     <div className="inner">
-                                        <h4><a href="/portfolio-details">Digital Analysis</a></h4>
-                                        <span className="category">Technique</span>
+                                        <h4><a href="https://secure.belcourt.org/websales/pages/TicketSearchCriteria.aspx?evtinfo=115426~3a28c818-27b3-492b-8c64-14556ad966cd" target="_blank">Disability Advocacy Creative Placemaking</a></h4>
+                                        <p className=" text-justify"><a href="https://secure.belcourt.org/websales/pages/TicketSearchCriteria.aspx?evtinfo=115426~3a28c818-27b3-492b-8c64-14556ad966cd" target="_blank">"Jama Mohamed was awarded micro-funding from Metro Arts to collaborate with the TN Disability Coalition to empower families and individuals effected by life long special needs. Jama has visited the homes of parents and individuals with special needs personally to teach the basics of creating video. On each visit, using his equipment, they directed their own 5-shot short. This project aims to spotlight an underrepresented community. By sharing these stories, they can work to normalize their experience and the experience of others who also have life-long special needs"</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -141,8 +141,9 @@ class PortfolioDetails1 extends Component{
                                         </a>
                                     </div>
                                     <div className="inner">
-                                        <h4><a href="/portfolio-details">Plan Management</a></h4>
-                                        <span className="category">PLANNING</span>
+                                        <h4><a href="https://www.facebook.com/events/belcourt-theatre/sh-pizza-and-a-movie-do-the-right-thing/1708078545960341/" target="_blank">Film & Dialoge</a></h4>
+                                        <p className="text-justify"> In 2018 rented out the Belcourt Theatre and developed a partnership with Slim and Husky’s Pizza for them to sell pizzas at screenings of “90’s Blassics”. It was a fun project that allowed me to organize community discussions with various community leaders about themes of the films and how they relate to today with a splash of nostalgia for 90's black films.
+</p>
                                     </div>
                                 </div>
                             </div>

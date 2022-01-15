@@ -22,7 +22,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'I earned a Bachelor’s of Fine Arts in Digital Filmmaking in 2012.  My goal as a disability advocate, artist, software developer and Nashvillian is to lift barriers to make a more livable community. I want to bring folks together engage with each other and learn from one another. I’ve made middle Tennessee my home, and I want it to be better. I believe the best way to do that is through techology and creative placemaking.';
+        description = 'I earned a Bachelor’s of Fine Arts in Digital Filmmaking in 2012.  My goal as a disability advocate, artist, software developer, and Nashvillian is to lift barriers to make a more livable community. I want to bring people together engage with each other and learn from one another. Middle Tennessee is my home, and I want to make it better. I believe the best way to do that is through techology and creative placemaking.';
     
     return (
         <div className="active-dark">
@@ -40,7 +40,7 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Hi, I’m Jama Mohamed <br/>
+                                            <h1 className="title">Hi- I’m Jama Mohamed, <br/>
                                             <TextLoop>
                                                 <span> full stack developer</span>
                                                 <span> filmmaker </span>
