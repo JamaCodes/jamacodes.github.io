@@ -55,7 +55,7 @@ class PortfolioDetails1 extends Component{
                                 <div className="portfolio-details">
                                     <div className="inner">
                                         <h2>Recent Projects</h2>
-                                        <p className="subtitle">Check out the videos below to get a more indepth look at my frontend and backend projects.</p>
+                                        {/* <p className="subtitle">I plan to upload videos below to give a more indepth look at my frontend and backend projects, but I haven't had time to do so. Please enjoy some of my documentary work.</p> */}
                                         <p>I spent the last six-months in an intense and immersive full-time software development bootcamp through Nashville Software School focusing on HTML, CSS, Javascript, React and server-side fundamentals with C# and .Net. If I could talk to myself six months ago, wouldn't even know where to begin.</p>
 
                                         <div className="portfolio-view-list d-flex flex-wrap">
@@ -83,20 +83,16 @@ class PortfolioDetails1 extends Component{
                                             </ul>
                                         </div>
                                     </div>
+                                                    
                                     <div className="portfolio-thumb-inner">
-                                        {/* <div className="thumb position-relative mb--30">
-                                            <img src="/assets/images/portfolio/portfolio-big-03.jpg" alt="Portfolio Images"/>
-                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
-                                            <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
-                                        </div> */}
-                                        
+{/*                                         
                                         <div className="thumb mb--30">
-                                            <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
+                                        <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
                                         </div>
-
+                                        
                                         <div className="thumb">
-                                            <img src="/assets/images/portfolio/portfolio-big-01.jpg" alt="Portfolio Images"/>
-                                        </div>
+                                        <img src="/assets/images/portfolio/portfolio-big-01.jpg" alt="Portfolio Images"/>
+                                    </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -114,6 +110,13 @@ class PortfolioDetails1 extends Component{
                                     <span className="theme-color font--18 fontWeight600">Related Work</span>
                                     <h2>A Time Before Web Development</h2>
                                 </div>
+                                    { <div className="thumb position-relative mb--30">
+                                        <img src="/assets/images/portfolio/portfolio-big-03.jpg" alt="Portfolio Images"/>
+                                        
+                                        <ModalVideo channel='vimeo' isOpen={this.state.isOpen} videoId='612559371' onClose={() => this.setState({isOpen: false})} />
+                                        
+                                        <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
+                                    </div> }
                             </div>
                         </div>
                         <div className="row mt--10">
